@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    }
+     header{
+         position:absolute;
+         top:0;
+         left:0;
+         padding: 0 80px;
+         width:100%;
+         background-color:#000d1a;
+         box-sizing:border-box;
+    
+     }
+    
+     header .logo{
+      color:white;
+      height:50px;
+      line-height: 50px;
+      font: 24px bold; 
+      float:left;
+      box-sizing:border-box;
+      padding-top:10px;
+    
+    
+     }
+     .logo a{
+        color: #fff;
+        text-decoration: none;
+    }
+     
+    
+     header nav{
+         float:right;
+    }
+    
+    header nav ul{
+    margin:0;
+    padding:0;
+    display:flex;
+    }
+    
+    header nav ul li{
+    list-style: none;
+    
+    }
+    header nav ul li a{
+        height:50px;
+        line-height:50px;
+        padding:0 20px; 
+        color:white;
+        text-decoration: none;
+        display:block;
+       
+        
+        }
+        header nav ul li a:hover{
+            background-color:#004080 ;
+            color:#fff;
+    
+        }
+    
+    
+
+
+
+#kontaktoss{
+	margin-top:100px;
+	margin-left:50px;
+	font-size:30px;
+}
+input{
+	height:30px;
+	width:500px;
+	border-radius:2px;
+}
+label{
+	font-size:15px;
+	font-weight:bold;
+	
+}
+#comment{
+	height:200px;
+	width:400px;
+	border-radius:2px;
+}
+
+#gonder{
+	height:50px;
+    width:130px;
+    margin-bottom: 35px;
+	border-radius:2px;
+	font-size:18px;
+	background-color:rgb(33, 78, 7);
+	color:white;
+}
